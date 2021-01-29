@@ -7,7 +7,8 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.androidutil.util.PermissionUtil;
+import com.util.PermissionUtil;
+
 
 public class PermissionUtilTestActivity extends AppCompatActivity {
 

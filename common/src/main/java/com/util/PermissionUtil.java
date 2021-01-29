@@ -1,4 +1,4 @@
-package com.example.androidutil.util;
+package com.util;
 
 import android.Manifest;
 import android.app.Activity;

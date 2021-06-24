@@ -2,4 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.util">
 
+    <application>
+    <provider
+        android:name=".AppInstaller"
+        android:authorities="${applicationId}.xxx-installer"
+        android:enabled="@bool/xxx_auto_install"
+        android:exported="false" />
+    </application>
 </manifest>

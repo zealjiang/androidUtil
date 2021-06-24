@@ -3,6 +3,7 @@
     package="com.example.androidutil">
 
     <application
+        android:name=".UtilApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".utiltest.PermissionUtilTestActivity"/>
+
+        <provider
+            android:name=".AppInstaller"
+            android:authorities="${applicationId}.xxx-installer"
+            android:enabled="@bool/xxx_auto_install"
+            android:exported="false" />
     </application>
 
 </manifest>

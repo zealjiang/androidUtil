@@ -19,11 +19,6 @@
         </activity>
         <activity android:name=".utiltest.PermissionUtilTestActivity"/>
 
-        <provider
-            android:name=".AppInstaller"
-            android:authorities="${applicationId}.xxx-installer"
-            android:enabled="@bool/xxx_auto_install"
-            android:exported="false" />
     </application>
 
 </manifest>

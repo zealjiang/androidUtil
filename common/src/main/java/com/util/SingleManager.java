@@ -14,6 +14,7 @@ public class SingleManager {
     }
 
     public void init(){
+        //注释2
         Log.d("mtest","lib SingleManager init 初始化完成");
     }
 }

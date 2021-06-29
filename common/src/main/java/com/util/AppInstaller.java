@@ -26,6 +26,7 @@ public class AppInstaller extends ContentProvider {
         //ContentProvider中获取到的getContext就是Application的getApplicationContext，并且ContentProvider先于Application初始化
         context = getContext();
         Log.d("mtest", "lib AppProvider onCreate  "+context);
+        //注释修改
         SingleManager.getInstance(context).init();
         return false;
     }

@@ -15,5 +15,6 @@ public class SingleManager {
 
     public void init(){
         Log.d("mtest","lib SingleManager init 初始化完成");
+        Log.d("mtest","**************------------************测试");
     }
 }

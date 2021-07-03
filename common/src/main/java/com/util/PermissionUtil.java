@@ -23,7 +23,6 @@ public class PermissionUtil {
         permissionsSet.add(Manifest.permission.READ_EXTERNAL_STORAGE);
         permissionsSet.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
         //注释3
-        //注释3
     }
 
     public boolean checkPermission(Context mContext) {
